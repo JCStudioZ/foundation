@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['react-app', 'prettier'],
+  extends: ['prettier'],
   plugins: ['react', 'react-hooks', 'prettier'],
   rules: {
     "prettier/prettier": "error",

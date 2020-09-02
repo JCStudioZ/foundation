@@ -22,23 +22,22 @@ const BannerModern = () => {
               leftAlign={true}
               UniWidth="100%"
             >
-              <h4>30% off for new users for 1 month</h4>
               <h1>
-                Drive Customers Passing Your Appslife With <span>Appion</span>
+                Make your own Food Delivery App with <span>FoodStar</span>
               </h1>
             </SectionTitle>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
-              minim veniam quis nostrud exercitation.
+              FoodStar is a modern, well-crafted Food Delivery React Native App
+              Template that can help create a next hit app in Food Delivery
+              industry
             </p>
             <VintageBox right={true} vintageOne={true}>
               <Button className="banner-btn one">
                 <FaDownload className="icon-left" />
-                Download V1.4
+                Buy Now
               </Button>
               <Button className="banner-btn two">
-                <FaPlay className="icon-left" /> Watch Now
+                <FaPlay className="icon-left" /> Watch Preview
               </Button>
             </VintageBox>
           </Col>

@@ -3,10 +3,10 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['prettier'],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react', 'react-hooks', 'prettier'],
   rules: {
-    "prettier/prettier": "error",
+    'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     semi: ['error', 'never'],

@@ -34,17 +34,19 @@ const About = () => {
               {' '}
               <h4>About us</h4>
               <h2>
-                <span>Starting with appion</span> is easier than anything.
+                We’re a creative team that specializes in Premium Mobile
+                Templates
               </h2>
             </SectionTitle>
             <p className="about-text text-one">
-              One differences leaders, management-science so, best treat. Still
-              problems upper and anger devoting out. With hiding their boss
-              phase drops. A strenuous in ticket get write it by proposal.
+              We’re intelligent with lots of talent, and best of all, we are
+              incredibly passionate about our work. Building on our experience,
+              talent, skills and core values has made this company what it is
+              today. A solid source for a strikingly beautiful premium mobile
+              app template collection.
             </p>
             <p className="about-text text-two">
-              Thought. Road, clearly, and software the shreds sisters contract,
-              luxury and fully here
+              Let's make your dream product possible with us!
             </p>
             <VintageBox right={true} vintageTwo={true} position="relative">
               <Button>Learn More</Button>

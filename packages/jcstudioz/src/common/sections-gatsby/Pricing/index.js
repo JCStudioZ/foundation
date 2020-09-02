@@ -24,7 +24,7 @@ const Pricing = () => {
             <span>Choose your best plan </span> For adorable pricing history.
           </h2>
         </SectionTitle>
-        <Row>
+        <Row Hcenter>
           {data.pricings.map((pricing, index) => (
             <Col xs={12} sm={6} lg={4} key={index}>
               <div className="pricing-block">

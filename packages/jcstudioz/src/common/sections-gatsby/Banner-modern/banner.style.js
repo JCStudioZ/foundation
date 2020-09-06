@@ -47,20 +47,13 @@ const BannerSectionWrapper = styled.section`
       font-size: 60px;
       line-height: 75px;
       margin: 0 0 38px 0;
-      color: #2c0075;
+      color: ${(props) => props.theme.headingColor};
       span {
         font-weight: 600;
       }
     }
   }
-  .banner-btn.one {
-    background: #8a57de;
-    color: #fff;
-    &:hover {
-      background: #eee6fa;
-      color: #8a57de;
-    }
-  }
+
   .banner-btn.two {
     background: #ffebec;
     color: #fb7b81;

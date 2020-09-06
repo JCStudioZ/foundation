@@ -15,14 +15,13 @@ const ButtonStyle = styled.button`
   -webkit-transition: 450ms all;
   transition: 450ms all;
   position: relative;
-  color: ${(props) => props.theme.primaryColor};
-  background-color: ${(props) => props.theme.primaryLightColor};
+  color: #000;
+  background-color: ${(props) => props.theme.primaryColor};
   z-index: 999;
   &:hover,
   &:focus {
     outline: none;
-    background: ${(props) => props.theme.primaryColor};
-    color: ${(props) => props.theme.white};
+    background: ${(props) => props.theme.primaryHoverColor};
   }
   .icon-left {
     margin-right: 8px;

@@ -38,6 +38,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;
   color: ${(props) => props.theme.textColor};
+  background-color: ${(props) => props.theme.backgroundColor};
   overflow-x: hidden !important;
   font-weight: 400;
   margin: 0;
@@ -61,11 +62,10 @@ p{
 a{
     text-decoration: none;
     color: ${(props) => props.theme.headingColor};
-  }
-  img{
-    max-width: 100%;
-  }
-
+}
+img{
+  max-width: 100%;
+}
 
 section{
     position: relative;

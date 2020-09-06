@@ -24,7 +24,7 @@ const TestimonialWrapper = styled.section`
       p {
         font-weight: 300;
         svg {
-          fill: #2c0075;
+          fill: ${(props) => props.theme.primaryColor};
           margin: 0 12px 2px 5px;
         }
       }

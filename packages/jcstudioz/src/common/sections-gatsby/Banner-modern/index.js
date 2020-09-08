@@ -23,11 +23,11 @@ const BannerModern = () => {
               UniWidth="100%"
             >
               <h1>
-                Make your own Food Delivery App with <span>FoodStar</span>
+                Make your own Food Delivery App with <span>Food Star</span>
               </h1>
             </SectionTitle>
             <p>
-              FoodStar is a modern, well-crafted Food Delivery React Native App
+              Food Star is a modern, well-crafted Food Delivery React Native App
               Template that can help create a next hit app in Food Delivery
               industry
             </p>

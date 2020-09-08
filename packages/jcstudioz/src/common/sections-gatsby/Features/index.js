@@ -19,7 +19,7 @@ const Features = () => {
         <SectionTitle UniWidth="65%">
           <h4>Amazing Features</h4>
           <h2>
-            <span>Some of the best features </span> you find in FoodStar.
+            <span>Some of the best features </span> you find in Food Star
           </h2>
         </SectionTitle>
         <Row>
@@ -66,7 +66,7 @@ const Features = () => {
               </div>
               <h3>Built With Latest Technology</h3>
               <p>
-                FoodStar is a fully coded app template built over the latest
+                Food Star is a fully coded app template built over the latest
                 version of React Native, TypeScript to allow you to create high
                 performance and beautiful Food Delivery mobile apps
               </p>

@@ -1,8 +1,5 @@
 import styled from 'styled-components'
 
-import Bg1 from '@/common/assets/images/app/features/bg-1.png'
-import Bg2 from '@/common/assets/images/app/features/bg-2.png'
-
 import Vintage1 from '@/common/assets/images/app/features/vintage-1.png'
 import Vintage2 from '@/common/assets/images/app/features/vintage-2.png'
 
@@ -16,7 +13,9 @@ const FeturesSectionWrapper = styled.section`
     align-items: center;
     margin-bottom: 25px;
     position: relative;
-
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 1s;
     img {
       display: block;
       margin: 0 auto;
@@ -40,16 +39,11 @@ const FeturesSectionWrapper = styled.section`
     }
     &:hover {
       .fetures-icon-block {
-        &:before {
-          opacity: 1;
-          right: -10px;
-        }
+        border-color: ${(props) => props.theme.primaryHoverColor};
       }
     }
     &.v1 {
       .fetures-icon-block {
-        background: url(${Bg1}) no-repeat;
-        background-size: contain;
         &:before {
           background: url(${Vintage1});
         }
@@ -57,8 +51,6 @@ const FeturesSectionWrapper = styled.section`
     }
     &.v2 {
       .fetures-icon-block {
-        background: url(${Bg2}) no-repeat;
-        background-size: contain;
         &:before {
           background: url(${Vintage2});
         }

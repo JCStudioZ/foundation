@@ -38,7 +38,6 @@ const BannerSectionWrapper = styled.section`
   h4 {
     margin-bottom: 8px;
     font-size: 18px;
-    color: #febfb3;
     text-transform: uppercase;
   }
   .section-title {
@@ -55,11 +54,11 @@ const BannerSectionWrapper = styled.section`
   }
 
   .banner-btn.two {
-    background: #ffebec;
-    color: #fb7b81;
+    background: ${(props) => props.theme.white};
+    color: ${(props) => props.theme.primaryColor};
     &:hover {
-      background: #fb7b81;
-      color: #fff;
+      background: ${(props) => props.theme.primaryColor};
+      color: ${(props) => props.theme.black};
     }
   }
   .banner-btn + .banner-btn {

@@ -18,7 +18,7 @@ const PricingSectionWrapper = styled.section`
     }
   }
   .pricing-block {
-    padding: 60px 60px 55px 60px;
+    padding: 60px 40px 55px 40px;
     border: 1px solid ${(props) => props.theme.primaryLightColor};
     box-shadow: 0 0 40px ${(props) => props.theme.shadowColor};
     border-radius: 5px;

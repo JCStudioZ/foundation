@@ -24,26 +24,28 @@ const GetApp = () => {
         <Row Vcenter={true}>
           <Col xs={12} sm={6}>
             <div className="getapp-block">
-              <h3>Get the app now!</h3>
+              <h3>Try before you buye</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua enim
-                ad minim veniam quis nostrud exercitation.
+                Any F&B startup is planning to kick start their own app? Let’s
+                make it easier with FOOD STAR template. Ready-made with the
+                latest technology and for sure will step up your app game and
+                make it less than a pain in the ass with very detailed
+                instruction.
               </p>
               <div className="btn-block">
                 <Link to="#" className="getapp-btn apl-btn">
                   <DiAppstore />
                   <p>
-                    Download iphone App
-                    <span>App Store</span>
+                    Check it out on
+                    <span>Apple TestFlight</span>
                   </p>
                 </Link>
 
                 <Link to="#" className="getapp-btn">
                   <FaGooglePlay />
                   <p>
-                    Get it On
-                    <span>Google Play Store</span>
+                    Download it now
+                    <span>Android APK File</span>
                   </p>
                 </Link>
               </div>

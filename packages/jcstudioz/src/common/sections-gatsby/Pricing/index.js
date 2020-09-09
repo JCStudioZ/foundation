@@ -26,7 +26,7 @@ const Pricing = () => {
         </SectionTitle>
         <Row Hcenter>
           {data.pricings.map((pricing, index) => (
-            <Col xs={12} sm={6} lg={4} key={index}>
+            <Col xs={12} sm={6} lg={5} key={index}>
               <div className="pricing-block">
                 <div className="thumb-block">
                   <img src={pricing.thumb} alt="appion app landing" />

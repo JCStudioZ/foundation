@@ -5,60 +5,80 @@ const data = {
   pricings: [
     {
       thumb: imgPricing1,
-      name: 'Free Demo',
-      price: '$00.00',
-      description: 'Lorem ipsum dolor sit amet consectetur elit, sed.',
-      link: '#',
+      name: 'Standard License',
+      price: '$20.00',
+      description:
+        'Use, by you or one client, in a single end product which end users ARE NOT charged for',
+      link:
+        'https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069',
       btnText: 'Get Package',
       services: [
         {
-          content: 'Push Notification.',
+          content: 'Over 45 Well-crafted Components',
           className: '--on',
         },
         {
-          content: 'Offline Synchronization.',
+          content: 'Support Dark Theme & Light Theme',
           className: '--on',
         },
         {
-          content: 'SQL Database.',
+          content: 'Seamless Cross-Platform Development',
           className: '--on',
         },
         {
-          content: 'Speech & Text Analytics.',
+          content: 'Always Updated With Latest Technology',
           className: '--off',
         },
         {
-          content: '24/7 Supports.',
+          content: 'Easy To Customize For Your Business',
+          className: '--off',
+        },
+        {
+          content: 'Detailed Documentation',
+          className: '--off',
+        },
+        {
+          content: 'Great Customer Support',
           className: '--off',
         },
       ],
     },
     {
       thumb: imgPricing2,
-      name: 'Full Version',
+      name: 'Extended License',
       price: '$75.00',
-      description: 'Lorem ipsum dolor sit amet consectetur elit, sed.',
-      link: '#',
+      description:
+        'Use, by you or one client, in a single end product which end users CAN BE charged for.',
+      link:
+        'https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069',
       btnText: 'Get Package',
       services: [
         {
-          content: 'Push Notification.',
+          content: 'Over 45 Well-crafted Components',
           className: '--on',
         },
         {
-          content: 'Offline Synchronization.',
+          content: 'Support Dark Theme & Light Theme',
           className: '--on',
         },
         {
-          content: 'SQL Database.',
+          content: 'Seamless Cross-Platform',
           className: '--on',
         },
         {
-          content: 'Speech & Text Analytics.',
-          className: '--on',
+          content: 'Always Updated With Latest Technology',
+          className: '--off',
         },
         {
-          content: '24/7 Supports.',
+          content: 'Easy To Customize',
+          className: '--off',
+        },
+        {
+          content: 'Detailed Documentation',
+          className: '--off',
+        },
+        {
+          content: 'Great Customer Support',
           className: '--off',
         },
       ],

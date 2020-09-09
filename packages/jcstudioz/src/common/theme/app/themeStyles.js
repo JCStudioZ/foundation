@@ -9,7 +9,7 @@ const theme = {
   secondaryLightColor: '#FFEBEC',
   tetriaryColor: '#E281CE',
   headingColor: '#44d62c',
-  textColor: '#7A848E',
+  textColor: '#ffffff',
   backgroundColor: '#18191A',
   shadowColor: '#44d62c',
   shadowLightColor: '#E6E6E6',

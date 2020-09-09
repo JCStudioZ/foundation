@@ -105,7 +105,7 @@ const GetAppSectionWrap = styled.section`
     text-align: center;
     img {
       margin-top: -80px;
-      box-shadow: 0 0 40px ${(props) => props.theme.shadowColor};
+      max-width: 70%;
     }
   }
   @media only screen and (max-width: 1280px) {

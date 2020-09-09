@@ -15,13 +15,13 @@ const NavigationWrap = styled.header`
   }
   .mobile-menu-icon {
     display: none;
-    color: #1d316c;
+    color: ${(props) => props.theme.textColor};
     font-size: 24px;
   }
 
   /*Drop down style*/
   .dropdown {
-    background: #fff;
+    background: ${(props) => props.theme.menuColor};
     visibility: hidden;
     opacity: 0;
     min-width: 200px;
@@ -61,14 +61,11 @@ const NavigationWrap = styled.header`
         li {
           padding: 0;
           a {
-            color: #1d316c;
+            color: ${(props) => props.theme.textColor};
             display: block;
             padding: 5px 15px;
             &:hover {
-              color: ${(props) =>
-                props.theme.menuHoverColor
-                  ? props.theme.menuHoverColor
-                  : '#FB7B81'} !important;
+              color: ${(props) => props.theme.menuHoverColor} !important;
             }
             &:before {
               content: none;
@@ -80,8 +77,7 @@ const NavigationWrap = styled.header`
       a,
       .nav-active {
         position: relative;
-        color: ${(props) =>
-          props.theme.menuColor ? props.theme.menuColor : '#1D316C'};
+        color: ${(props) => props.theme.textColor};
         font-size: 15px;
         transition: 450ms all;
         padding-bottom: 5px;
@@ -121,7 +117,7 @@ const NavigationWrap = styled.header`
   }
   &.scrolled {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
-    background: white;
+    background: ${(props) => props.theme.menuColor};
     .logo {
       width: 100px;
     }
@@ -129,12 +125,9 @@ const NavigationWrap = styled.header`
       li {
         padding: 28px 0px 28px 40px;
         a {
-          color: #1d316c;
+          color: ${(props) => props.theme.textColor};
           &:hover {
-            color: ${(props) =>
-              props.theme.menuHoverColor
-                ? props.theme.menuHoverColor
-                : '#FB7B81'};
+            color: ${(props) => props.theme.menuHoverColor};
           }
         }
       }
@@ -152,7 +145,7 @@ const NavigationWrap = styled.header`
     height: auto;
     min-height: 50px;
     padding: 15px 20px;
-    background: #fff;
+    background: ${(props) => props.theme.menuColor};
     &.scrolled {
       padding: 8px 20px;
       .nav .collapsed {
@@ -224,14 +217,14 @@ const NavigationWrap = styled.header`
           .dropdown {
             li {
               a {
-                color: #1d316c;
+                color: ${(props) => props.theme.textColor};
               }
             }
           }
           a {
             padding: 8px 10px;
             display: block;
-            color: #1d316c;
+            color: ${(props) => props.theme.textColor};
             &:before {
               content: none;
             }

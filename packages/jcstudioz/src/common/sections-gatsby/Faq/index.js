@@ -42,10 +42,8 @@ const Faq = () => {
               leftAlign={true}
               UniWidth="100%"
             >
-              <h4>Solution</h4>
-              <h2>
-                <span>Easy and perfect solution </span> for this app
-              </h2>
+              <h4>FAQ</h4>
+              <h2>Frequently Pre-purchase Questions</h2>
             </SectionTitle>
             <Accordion>
               {data.faqs.map((faq, index) => (
@@ -67,9 +65,6 @@ const Faq = () => {
                 </AccordionItem>
               ))}
             </Accordion>
-            <VintageBox right={true} vintageTwo={true} position="relative">
-              <Button>Learn More</Button>
-            </VintageBox>
           </Col>
         </Row>
       </Container>

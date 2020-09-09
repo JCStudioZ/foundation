@@ -68,6 +68,6 @@ export const IconWrapper = styled.div`
     right: 0;
     transform: translateY(-50%);
     transition: 0.25s ease-in-out;
-    color: #fb7b81;
+    color: ${(props) => props.theme.primaryColor};
   }
 `

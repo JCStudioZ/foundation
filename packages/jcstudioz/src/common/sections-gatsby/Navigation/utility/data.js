@@ -3,20 +3,20 @@ const Data = {
     {
       name: 'Home',
       path: '/',
-      subItems: [
-        {
-          name: 'Home Default',
-          path: '/',
-        },
-        {
-          name: 'Home Classic',
-          path: '/classic',
-        },
-        {
-          name: 'Home Modern',
-          path: '/modern',
-        },
-      ],
+      // subItems: [
+      //   {
+      //     name: 'Home Default',
+      //     path: '/',
+      //   },
+      //   {
+      //     name: 'Home Classic',
+      //     path: '/classic',
+      //   },
+      //   {
+      //     name: 'Home Modern',
+      //     path: '/modern',
+      //   },
+      // ],
     },
     {
       name: 'Features',
@@ -29,19 +29,8 @@ const Data = {
       offset: '-50',
     },
     {
-      name: 'Testimonial',
-      path: '/#testimonial',
-      offset: '-50',
-    },
-    {
-      name: 'Faq',
+      name: 'FAQ',
       path: '/#faq',
-      offset: '-50',
-    },
-
-    {
-      name: 'Contact',
-      path: '/#contact',
       offset: '-50',
     },
   ],

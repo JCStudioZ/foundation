@@ -8,7 +8,7 @@ import Banner from '@/common/sections-gatsby/Banner-modern'
 import About from '@/common/sections-gatsby/About'
 import Features from '@/common/sections-gatsby/Features'
 import Faq from '@/common/sections-gatsby/Faq'
-import AppScreens from '@/common/sections-gatsby/AppScreens'
+import AppScreens from '@/common/sections-gatsby/AppScreens-classic'
 import Pricing from '@/common/sections-gatsby/Pricing'
 import Getapp from '@/common/sections-gatsby/Getapp'
 import Footer from '@/common/sections-gatsby/Footer'
@@ -25,6 +25,7 @@ const IndexPage = () => (
       <Banner />
       <About />
       <Features />
+      <AppScreens />
       <Pricing />
       <Faq />
       <Getapp />

@@ -48,6 +48,10 @@ const AppScreenSctionWrapper = styled.section`
   .slick-slide.slick-active {
     margin-left: -50px;
     margin-right: -50px;
+    -webkit-transition: transform 500ms ease-in;
+    -moz-transition: transform 500ms ease-in;
+    -o-transition: transform 500ms ease-in;
+    transition: transform 500ms ease-in;
   }
   .slick-slide[data-index~='-2'] {
     margin-left: 100px;

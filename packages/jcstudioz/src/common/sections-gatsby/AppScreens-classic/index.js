@@ -27,14 +27,14 @@ const AppScreensClassic = () => {
   )
   const settings = {
     dots: false,
-    autoplay: true,
+    autoplay: false,
     infinite: true,
     className: 'center',
     centerMode: true,
     centerPadding: '170px',
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 300,
+    speed: 500,
     responsive: [
       {
         breakpoint: 1025,

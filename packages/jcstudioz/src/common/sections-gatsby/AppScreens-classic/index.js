@@ -66,7 +66,8 @@ const AppScreensClassic = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          centerPadding: '00px',
+          centerMode: false,
+          centerPadding: '0',
         },
       },
     ],

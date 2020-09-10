@@ -93,7 +93,7 @@ const BannerSectionWrapper = styled.section`
   @media only screen and (max-width: 568px) {
     background: none;
     .hero-img {
-      display: none;
+      margin-top: 50px;
     }
   }
   @media only screen and (max-width: 480px) {

@@ -15,23 +15,20 @@ const AppScreenSctionWrapper = styled.section`
     justify-content: flex-end;
   }
 
-  .app__screen__slider {
-    .slick-dots {
-      right: -103%;
-      bottom: 180px;
-      width: auto;
-      z-index: 999;
-      li {
-        width: 115px;
-        height: 195px;
-        margin: 0 8px;
-        transition: all 0.3s ease-in;
-        img {
-          max-width: 100%;
+  .slick-dots {
+    li {
+      button {
+        &:before {
+          color: ${(props) => props.theme.primaryColor};
+          opacity: 0.2;
         }
       }
-      li.slick-active {
-        box-shadow: -1px 25px 17px #b8b7b7;
+    }
+    li.slick-active {
+      button {
+        &:before {
+          color: ${(props) => props.theme.primaryColor};
+        }
       }
     }
   }
@@ -40,16 +37,22 @@ const AppScreenSctionWrapper = styled.section`
     position: relative;
     padding-left: 5px;
     padding-right: 5px;
-    opacity: 0.3;
     transition: all 300ms ease-in;
     transform: scale(0.9);
     cursor: pointer;
+    @media only screen and (min-width: 769px) {
+      opacity: 0.3;
+    }
     &.slick-current.slick-active {
-      opacity: 1;
-      transform: scale(1);
+      @media only screen and (min-width: 769px) {
+        opacity: 1;
+        transform: scale(1);
+      }
     }
     &:hover {
-      opacity: 1;
+      @media only screen and (min-width: 769px) {
+        opacity: 1;
+      }
     }
   }
 

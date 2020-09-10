@@ -60,6 +60,16 @@ const GetAppSectionWrap = styled.section`
     border: 1px solid rgba(122, 132, 142, 0.5);
     -webkit-transition: 450ms all;
     transition: 450ms all;
+    &:hover {
+      color: ${(props) => props.theme.textColor};
+      background: ${(props) => props.theme.primaryColor};
+      border-color: transparent;
+      span,
+      p,
+      svg {
+        color: ${(props) => props.theme.textColor};
+      }
+    }
     p {
       margin-bottom: 0;
       color: ${(props) => props.theme.primaryColor};
@@ -74,29 +84,14 @@ const GetAppSectionWrap = styled.section`
       font-size: 35px;
       color: ${(props) => props.theme.textColor};
     }
-    &:hover {
-      color: ${(props) => props.theme.primaryColor};
-      background: ${(props) => props.theme.white};
-      border-color: transparent;
-      span,
-      svg {
-        color: ${(props) => props.theme.primaryColor};
+    &.ios {
+      &:hover {
+        background: #1c86f3;
       }
     }
-  }
-  .apl-btn {
-    p {
-      color: ${(props) => props.theme.secondaryColor};
-    }
-    svg {
-      font-size: 45px;
-      color: ${(props) => props.theme.textColor};
-    }
-    &:hover {
-      color: ${(props) => props.theme.secondaryColor};
-      span,
-      svg {
-        color: ${(props) => props.theme.secondaryColor};
+    &.android {
+      &:hover {
+        background: #119e58;
       }
     }
   }

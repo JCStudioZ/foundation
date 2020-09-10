@@ -79,6 +79,7 @@ const AppScreensClassic = () => {
         <Row>
           <Col xs={12} sm={6}>
             <SectionTitle
+              id="appscreen"
               className="section-title-block"
               leftAlign={true}
               UniWidth="100%"

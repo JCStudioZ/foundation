@@ -24,6 +24,11 @@ const Data = {
       offset: '-50',
     },
     {
+      name: 'Screenshots',
+      path: '/#appscreen',
+      offset: '-50',
+    },
+    {
       name: 'Pricing',
       path: '/#pricing',
       offset: '-50',

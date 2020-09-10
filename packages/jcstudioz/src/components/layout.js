@@ -9,7 +9,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import FavIcon from '@/common/assets/images/favicon.ico'
+import FavIcon from '@/common/assets/images/favicon.png'
 
 const Layout = ({ children }) => {
   return (

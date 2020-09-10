@@ -25,7 +25,11 @@ const GetApp = () => {
             <div className="getapp-block">
               <h3>Try before you buy</h3>
               <div className="btn-block">
-                <Link to="#" className="getapp-btn ios">
+                <Link
+                  target="_blank"
+                  to="https://testflight.apple.com/join/YlfHiibQ"
+                  className="getapp-btn ios"
+                >
                   <FaAppStoreIos />
                   <p>
                     Check it out on
@@ -33,10 +37,14 @@ const GetApp = () => {
                   </p>
                 </Link>
 
-                <Link to="#" className="getapp-btn android">
+                <Link
+                  target="_blank"
+                  to="https://firebasestorage.googleapis.com/v0/b/food-delivery-app-templa-198db.appspot.com/o/food-star-app.apk?alt=media&token=c59d70c0-45a2-4699-9ce2-be4666d274d2"
+                  className="getapp-btn android"
+                >
                   <FaAndroid />
                   <p>
-                    Download and install via
+                    Download and install
                     <span>Android APK File</span>
                   </p>
                 </Link>

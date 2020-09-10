@@ -20,7 +20,12 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Appion Gatsby Home" />
+      <SEO
+        title="J&C Studio"
+        lang="en"
+        meta="Let's make your dream product possible with us"
+        description="Let's make your dream product possible with us"
+      />
       <Navigation />
       <Banner />
       <About />

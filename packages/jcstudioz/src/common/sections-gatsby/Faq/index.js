@@ -2,8 +2,6 @@ import React from 'react'
 
 import { Container, Row, Col } from '@/common/reusecore/Layout'
 import SectionTitle from '@/common/reusecore/SectionTitle'
-import Button from '@/common/reusecore/Button'
-import VintageBox from '@/common/reusecore/VintageBox'
 import {
   Accordion,
   AccordionItem,

@@ -1,26 +1,25 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import { Container, Row, Col } from '@/common/reusecore/Layout'
+import { Container } from '@/common/reusecore/Layout'
 
-import { FiMail, FiPhoneCall } from 'react-icons/fi'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+// import { FiMail, FiPhoneCall } from 'react-icons/fi'
+// import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
-import logo from '@/common/assets/images/app/footer/footer-logo.png'
-import particleOne from '@/common/assets/images/app/footer/footer-particle.png'
+// import logo from '@/common/assets/images/app/footer/footer-logo.png'
+// import particleOne from '@/common/assets/images/app/footer/footer-particle.png'
 
 import FotterWrapper from './footer.style'
 
 const Footer = () => {
   return (
     <FotterWrapper>
-      <img
+      {/* <img
         className="section__particle one"
         src={particleOne}
         alt="appion app landing"
-      />
+      /> */}
       <Container>
-        <Row>
+        {/* <Row>
           <Col xs={12} sm={6} lg={3}>
             <div className="footer-widgets first">
               <Link className="footer-logo" to="#">
@@ -134,10 +133,10 @@ const Footer = () => {
               </p>
             </div>
           </Col>
-        </Row>
+        </Row> */}
         <div className="footer-bottom">
           <ul className="footer-menu">
-            <li>
+            {/* <li>
               <Link className="anchor" to="#">
                 Terms
               </Link>
@@ -146,24 +145,20 @@ const Footer = () => {
               <Link className="anchor" to="#">
                 Condition
               </Link>
-            </li>
-            <li>
-              <Link className="anchor" to="#">
+            </li> */}
+            {/* <li>
+              <Link className="anchor" to="mailto:jcstudio26@gmail.com">
                 Contact
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link className="anchor" to="#">
                 Help
               </Link>
-            </li>
+            </li> */}
           </ul>
           <p className="copyright-text">
-            Copyright @
-            <Link className="anchor" to="#">
-              Devscorn
-            </Link>
-            | All Right Reserved 2020
+            Copyright @jcstudioz | All Right Reserved 2020
           </p>
         </div>
       </Container>

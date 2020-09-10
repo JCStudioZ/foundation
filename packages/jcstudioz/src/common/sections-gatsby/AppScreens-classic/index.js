@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from '@/common/reusecore/Layout'
 import SectionTitle from '@/common/reusecore/SectionTitle'
-import Button from '@/common/reusecore/Button'
 import { SlickSlider, SliderItem } from '@/common/reusecore/SlickSlider'
 
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io'
@@ -29,12 +28,12 @@ const AppScreensClassic = () => {
     dots: false,
     autoplay: false,
     infinite: true,
-    className: 'center',
     centerMode: true,
+    focusOnSelect: true,
+    className: 'center',
     centerPadding: '170px',
     slidesToShow: 3,
-    slidesToScroll: 1,
-    speed: 500,
+    speed: 300,
     responsive: [
       {
         breakpoint: 1025,
@@ -85,16 +84,10 @@ const AppScreensClassic = () => {
               UniWidth="100%"
               mb={50}
             >
-              <h4>app screens</h4>
               <h2>
-                <span>See screenshot </span> & engage in this app.
+                <span>Screenshots</span>
               </h2>
             </SectionTitle>
-          </Col>
-          <Col xs={12} sm={6}>
-            <div className="view-more-button">
-              <Button>View on Goole Play</Button>
-            </div>
           </Col>
         </Row>
         <Row>

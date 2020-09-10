@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import FooterBG from '@/common/assets/images/app/footer/footer-bg.png'
 
 const FotterWrapper = styled.section`
-  padding-top: 250px;
   padding-bottom: 45px;
   background: url(${FooterBG});
   background-repeat: no-repeat;
@@ -121,7 +120,6 @@ const FotterWrapper = styled.section`
     justify-content: space-between;
     padding-top: 50px;
     margin-top: 100px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
     .footer-menu {
       order: 2;
       li {

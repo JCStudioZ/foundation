@@ -38,31 +38,19 @@ const AppScreenSctionWrapper = styled.section`
 
   .slick-slide {
     position: relative;
-    transform: scale(0.8);
-  }
-  .slick-slide.slick-active {
-    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 0.3;
+    transition: all 300ms ease-in;
     transform: scale(0.9);
-    z-index: 3;
-  }
-  .slick-slide.slick-active {
-    margin-left: -50px;
-    margin-right: -50px;
-    -webkit-transition: transform 500ms ease-in;
-    -moz-transition: transform 500ms ease-in;
-    -o-transition: transform 500ms ease-in;
-    transition: transform 500ms ease-in;
-  }
-  .slick-slide[data-index~='-2'] {
-    margin-left: 100px;
-  }
-
-  .slick-slide.slick-active.slick-center.slick-current {
-    position: relative;
-    transform: scale(1);
-    margin-right: 0;
-    margin-left: 0;
-    z-index: 4;
+    cursor: pointer;
+    &.slick-current.slick-active {
+      opacity: 1;
+      transform: scale(1);
+    }
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .slick-arrow {
@@ -77,8 +65,7 @@ const AppScreenSctionWrapper = styled.section`
 
     &:hover {
       opacity: 1;
-      color: ${(props) =>
-        props.theme.secondaryColor ? props.theme.secondaryColor : '#FB7B81'};
+      color: ${(props) => props.theme.primaryColor};
     }
   }
 
@@ -111,21 +98,7 @@ const AppScreenSctionWrapper = styled.section`
     }
   }
   @media only screen and (max-width: 480px) {
-    .slick-slide[data-index~='-2'] {
-      margin-left: 0;
-    }
-    .slick-list {
-      padding: 0 !important;
-    }
-    .slick-slide.slick-active {
-      margin-left: 0;
-      margin-right: 0;
-    }
     .slick-slide {
-      &.slick-active {
-        transform: scale(1);
-      }
-      transform: scale(1);
       img {
         margin: 0 auto;
       }

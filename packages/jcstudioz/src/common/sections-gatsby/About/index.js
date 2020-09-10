@@ -2,8 +2,6 @@ import React from 'react'
 
 import { Container, Row, Col } from '@/common/reusecore/Layout'
 import SectionTitle from '@/common/reusecore/SectionTitle'
-import Button from '@/common/reusecore/Button'
-import VintageBox from '@/common/reusecore/VintageBox'
 
 import imgAbout from '@/common/assets/images/app/about.png'
 import particle1 from '@/common/assets/images/app/particle/05.png'
@@ -39,18 +37,14 @@ const About = () => {
               </h2>
             </SectionTitle>
             <p className="about-text text-one">
-              We’re intelligent with lots of talent, and best of all, we are
-              incredibly passionate about our work. Building on our experience,
-              talent, skills and core values has made this company what it is
-              today. A solid source for a strikingly beautiful premium mobile
-              app template collection.
+              We’re incredibly passionate about our work. Building on our
+              experience, talent, skills and core values has made this team what
+              it is today. A solid source for a strikingly beautiful premium
+              mobile app template collection.
             </p>
             <p className="about-text text-two">
               Let's make your dream product possible with us!
             </p>
-            <VintageBox right={true} vintageTwo={true} position="relative">
-              <Button>Learn More</Button>
-            </VintageBox>
           </Col>
         </Row>
       </Container>

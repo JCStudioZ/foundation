@@ -11,6 +11,20 @@ import { FaPlay, FaDownload } from 'react-icons/fa'
 import BannerSectionWrapper from './banner.style'
 import imgHero from '@/common/assets/images/app/hero/mobile-screen.png'
 const BannerModern = () => {
+  const onBuyNowButtonClick = () => {
+    window.open(
+      'https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069',
+      '_blank',
+    )
+  }
+
+  const onWatchPreviewButtonClick = () => {
+    window.open(
+      'https://www.youtube.com/watch?v=03jAcs4F6pk&feature=youtu.be',
+      '_blank',
+    )
+  }
+
   return (
     <BannerSectionWrapper>
       <ParticleComponent />
@@ -32,11 +46,14 @@ const BannerModern = () => {
               industry
             </p>
             <VintageBox right={true} vintageOne={true}>
-              <Button className="banner-btn one">
+              <Button className="banner-btn one" onClick={onBuyNowButtonClick}>
                 <FaDownload className="icon-left" />
                 Buy Now
               </Button>
-              <Button className="banner-btn two">
+              <Button
+                className="banner-btn two"
+                onClick={onWatchPreviewButtonClick}
+              >
                 <FaPlay className="icon-left" /> Watch Preview
               </Button>
             </VintageBox>

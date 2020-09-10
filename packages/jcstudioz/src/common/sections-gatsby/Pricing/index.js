@@ -12,7 +12,7 @@ import data from '@/common/assets/data/pricing'
 
 import PricingSectionWrapper from './pricingSection.style'
 
-const Pricing = () => {
+const Pricing = ({ showDetailsBlock, showThumbBlock }) => {
   return (
     <PricingSectionWrapper id="pricing">
       <img className="section__particle one" src={particle1} alt="img" />
@@ -27,29 +27,39 @@ const Pricing = () => {
         <Row Hcenter>
           {data.pricings.map((pricing, index) => (
             <Col xs={12} sm={6} lg={5} key={index}>
-              <div className="pricing-block">
-                <div className="thumb-block">
-                  <img src={pricing.thumb} alt="appion app landing" />
+              <a
+                href="https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div className="pricing-block">
+                  {showThumbBlock && (
+                    <div className="thumb-block">
+                      <img src={pricing.thumb} alt="appion app landing" />
+                    </div>
+                  )}
+                  <div className="price-block">
+                    <h3>{pricing.price}</h3>
+                    <p>{pricing.name}</p>
+                  </div>
+                  <p>{pricing.description}</p>
+                  {showDetailsBlock && (
+                    <div className="details-block">
+                      {pricing.services.map((service, index) => (
+                        <span className={service.className} key={index}>
+                          {service.className === 'on' ? (
+                            <IoMdCheckmark />
+                          ) : (
+                            <IoMdClose />
+                          )}
+                          {service.content}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  <Button className="pricing-btn">{pricing.btnText}</Button>
                 </div>
-                <div className="price-block">
-                  <h3>{pricing.price}</h3>
-                  <p>{pricing.name}</p>
-                </div>
-                <p>{pricing.description}</p>
-                <div className="details-block">
-                  {pricing.services.map((service, index) => (
-                    <span className={service.className} key={index}>
-                      {service.className === 'on' ? (
-                        <IoMdCheckmark />
-                      ) : (
-                        <IoMdClose />
-                      )}
-                      {service.content}
-                    </span>
-                  ))}
-                </div>
-                <Button className="pricing-btn">{pricing.btnText}</Button>
-              </div>
+              </a>
             </Col>
           ))}
         </Row>

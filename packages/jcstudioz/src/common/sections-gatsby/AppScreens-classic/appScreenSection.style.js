@@ -28,6 +28,7 @@ const AppScreenSctionWrapper = styled.section`
       button {
         &:before {
           color: ${(props) => props.theme.primaryColor};
+          opacity: 1;
         }
       }
     }

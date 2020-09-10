@@ -30,7 +30,6 @@ const AppScreensClassic = () => {
     infinite: true,
     centerMode: true,
     focusOnSelect: true,
-    className: 'center',
     centerPadding: '170px',
     slidesToShow: 3,
     speed: 300,
@@ -66,7 +65,7 @@ const AppScreensClassic = () => {
         breakpoint: 480,
         settings: {
           dots: true,
-          slidesToShow: 1,
+          slidesToShow: 2,
           infinite: false,
           centerMode: false,
           centerPadding: '0px',

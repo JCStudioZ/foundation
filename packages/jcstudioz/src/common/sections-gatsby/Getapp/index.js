@@ -39,7 +39,7 @@ const GetApp = () => {
 
                 <Link
                   target="_blank"
-                  to="https://firebasestorage.googleapis.com/v0/b/food-delivery-app-templa-198db.appspot.com/o/food-star-app.apk?alt=media&token=c59d70c0-45a2-4699-9ce2-be4666d274d2"
+                  to="https://drive.google.com/file/d/1NJ_qBJZK8zFXzzBx34qfg5HfcDua_oDv/view?usp=sharing"
                   className="getapp-btn android"
                 >
                   <FaAndroid />

@@ -7,7 +7,7 @@ import particle3 from '@/common/assets/images/app/particle/03.png'
 import particle4 from '@/common/assets/images/app/particle/04.png'
 import particle5 from '@/common/assets/images/app/particle/05.png'
 
-export default () => (
+const Particle = () => (
   <div
     style={{
       position: 'absolute',
@@ -83,3 +83,4 @@ export default () => (
     />
   </div>
 )
+export default Particle

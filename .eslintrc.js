@@ -6,7 +6,6 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react', 'react-hooks', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     semi: ['error', 'never'],
@@ -17,6 +16,7 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'react/display-name': 0,
   },
   globals: {
     __PATH_PREFIX__: true,

@@ -26,7 +26,7 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
-                <a href="https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069" target="_blank">
+                <a href="https://testflight.apple.com/join/3YuoFG7H" target="_blank">
                   <div
                     className="py-2 px-4 w-full rounded-xl rounded-t-xl border-customApple border-2 text-white font-bold leading-loose mt-4 justify-center items-center flex"
                   >
@@ -34,7 +34,7 @@ export const Brands = () => (
                     <span className="ml-3">Try on Testflight</span>
                   </div>
                 </a>
-                <a href="https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069" target="_blank" className="ml-4">
+                <a href="https://drive.google.com/file/d/1yotsvRk_GakbhurXO0mOkxCZN1VvKNbf/view?usp=sharing" target="_blank" className="ml-4">
                   <div
                     className="py-2 px-4 w-full rounded-xl rounded-t-xl border-customGoogle border-2 text-white font-bold leading-loose mt-4 justify-center items-center flex"                    
                   >

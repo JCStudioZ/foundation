@@ -55,12 +55,12 @@ export const Navbar = () => {
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
               className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+           bg-customDarkBg2 hover:bg-customDarkBg3  border-customPrimary pl-6 pr-8 pt-2 pb-2 text-sm flex"
               href="https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069"
               target="_blank"
               aria-label="source code"
             >
-              <span className="pt-px">Buy the app</span>
+              <span className="pt-px text-customPrimary">Buy the app</span>
             </a>
           </div>
         </motion.div>

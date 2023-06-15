@@ -50,18 +50,18 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
-            <a href="https://codecanyon.net/item/food-star-react-native-food-delivery-template/28398069" target="_blank">
+            <a href="https://foodstar-doc.netlify.app/getting-started/" target="_blank">
               <div
                 className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
               >
-                Get it on Codecanyon
+                Read Docs
               </div>
             </a>
-            <a href="https://www.youtube.com/watch?v=03jAcs4F6pk" target="_blank">
+            <a href="#try-it">
               <div
                 className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
               >
-                Watch preview video
+                Try it now
               </div>
             </a>
           </div>
